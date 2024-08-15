@@ -1,0 +1,11 @@
+terminal: npm install --save lodash
+in src/index.js at top: import _ from 'lodash';
+in src/index.js at above element.innerHTML: Lodash;
+terminal: npx webpack
+terminal: npx webpack webpack.config.js
+
+OR
+
+$ npx webpack --config webpack.config.js
+
+
